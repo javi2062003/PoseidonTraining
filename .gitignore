@@ -1,32 +1,37 @@
-# Java (Spring Boot)
-*.class
-*.jar
-*.war
-*.log
-*.iml
-target/
+README.md
+.gradle
 build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Node (React Native)
-node_modules/
-npm-debug.log
-yarn-debug.log
-yarn-error.log
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# React Native platforms
-ios/build/
-android/.gradle/
-android/app/build/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# Environment files
-.env
-.env.*.local
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-# IDEs
+### VS Code ###
 .vscode/
-.idea/
-*.sw?
-
-# Mac / Linux / Windows
-.DS_Store
-Thumbs.db
